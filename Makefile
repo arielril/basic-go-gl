@@ -9,7 +9,7 @@ BINARY_PATH=$(SOURCEDIR)/example.go
 
 .DEFAULT_GOAL: $(BINARY)
 
-all: clean build run
+all: clean build
 
 run: build
 	./$(BINARY);
