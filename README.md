@@ -18,6 +18,6 @@ To execute this example program you can use the `make run` command, it will buil
 
 ## Result
 
-When running this example program, the program will create an white window and present 3 pair of lines. One red line, one blue line and one black line. 
+When running this example program, the program will create an white window and present 2 squares (cars) with spinning sirens (X). One car is blue and the other is red.
 
 You can press `q` or `ESC` to quit the program.
