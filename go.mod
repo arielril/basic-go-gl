@@ -1,4 +1,4 @@
-module gc-gl-example
+module github.com/arielril/basic-go-gl
 
 go 1.14
 

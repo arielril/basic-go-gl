@@ -1,3 +1,4 @@
+github.com/arielril/basic-go-gl v0.0.0-20200420015613-d695b52c3ed7 h1:F11v+xM3jqgsiH7N+EHyqE1ApqK3YMzBquPoZthiIEQ=
 github.com/go-gl/example v0.0.0-20191129173604-c307114f3462 h1:7uwfCqcBq167CdHwOD7vF+uAU59q/80342UCRtW4JNw=
 github.com/go-gl/example v0.0.0-20191129173604-c307114f3462/go.mod h1:E+gS6mQ2+Q61AyqFDv1wwV2v6snYJ5QxM3438Oo7GQA=
 github.com/go-gl/gl v0.0.0-20190320180904-bf2b1f2f34d7 h1:SCYMcCJ89LjRGwEa0tRluNRiMjZHalQZrVrvTbPh+qw=

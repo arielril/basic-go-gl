@@ -5,7 +5,7 @@ GOBUILD=$(GOCMD) build
 GOMOD=$(GOCMD) mod
 GOBUILDVAR=CGO_ENABLED=0 GOOS=linux GOARCH=amd64
 BINARY?=gogl
-BINARY_PATH=$(SOURCEDIR)/example.go
+BINARY_PATH=$(SOURCEDIR)/main.go
 
 .DEFAULT_GOAL: $(BINARY)
 
@@ -16,7 +16,7 @@ run: build
 	@make clean
 
 build: 
-	$(GOBUILD) -o ${BINARY} $(BINARY_PATH) $(SOURCEDIR)/util.go
+	$(GOBUILD) -o ${BINARY} $(BINARY_PATH)
 
 download:
 	$(GOMOD) download
